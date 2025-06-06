@@ -27,10 +27,10 @@ if uploaded_file is not None:
         st.write(f"** Total Pages:**{len(pdf_reader.pages)}")
         st.write(f"** Found Skills:**{', '.join(found)if found else 'None'}")
         st.write(f"** Missing Skills:**{', '.join(missing)if missing else 'None'}")
-        st.write(f"** REsume Score:**{round(score, 2)}/100")
+        st.write(f"** Resume Score:**{round(score, 2)}/100")
 
         if score <50:
-            st.warning("Try adding more rekevant skills to your resume.")
+            st.warning("Try adding more relevant skills to your resume.")
         else:
             st.success("Great Job! Your resume covers many important skills.")
          

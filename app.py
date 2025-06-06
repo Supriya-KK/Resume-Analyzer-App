@@ -20,7 +20,7 @@ if dark_mode:
 st.markdown("""
     <style>
         .main {
-            background-color: #f9f9f9;
+            background-color: #e6f0ff;
         }
         .stFileUploader {
             border: 2px dashed #4a90e2;

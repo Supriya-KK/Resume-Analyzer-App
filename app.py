@@ -33,7 +33,7 @@ if uploaded_file is not None:
             st.warning("Try adding more rekevant skills to your resume.")
         else:
             st.success("Great Job! Your resume covers many important skills.")
-        
+         
         
     except Exception as e:
         st.error(f"Something went wrong while reading the file: {e}")

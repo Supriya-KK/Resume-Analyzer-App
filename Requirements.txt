@@ -1,4 +1,4 @@
-streamlit 
+streamlit Add commentMore actions
     pip install streamlit
 PyPDF2 
     pip install PyPDF2

@@ -1,20 +1,32 @@
 # Resume-Analyzer-App (Streamlit App)
-This is a simple web app built using **Python** and **Streamlit** that analyzers your resume for key skills.
+This ia a simple Python + Streamlit web app that analyzes your resume(PDF)
+and highlights the skills present and missing based on trending Computer Science keywords.
 
-## What it does
-    - Upload your resume (PDF format)
-    - It scans for 20+ important skills 
-    (e.g., Python, SQL, Gir, AWS, ML, etc.)
-    -shows:
-        -Skills found
-        -Skills missing
-        -Resume score (Based on how many skills matched)
+# Features 
+- Upload your resume (PDF)
+- Automatically detects CS-related keywords like Python, SQL, AWS, etc,.
+- Shows total pages, found & missing skills
+- Give a score out of 100
+- Begineer-friendly and easy to use!
 
-## Purpose
-Help students, freshers, and job seekers improve their resume by identifying missing keywords that companies look for!
+# How to run this project
+1. Clone the REpository
+    '''bash
+    git clone https://github.com/Supriya-KK/resume-analyzer.git (copy this from code->local->HTTPS and copy it)
+    cd resume-analyzer(project folder name)
 
-## Built with
-    -Python
-    -Streamlit
-    -PyPDF2
-    -Regex
+2. install required libraries
+    Make sure Python is installed. Then run:
+        (in bash terminal)
+            pip install -r requirements.txt
+
+    if requirements.txt is missing, you can install manually:
+        pip install streamlit PyPDF2
+    
+3. Run the app
+    '''bash
+        stramlit run app.py
+                OR
+        python -m steamlit run app.py
+    This will open the app in your browser: http://localhost:8501
+

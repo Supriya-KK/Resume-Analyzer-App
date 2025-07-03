@@ -27,6 +27,6 @@ and highlights the skills present and missing based on trending Computer Science
     '''bash
         stramlit run app.py
                 OR
-        python -m steamlit run app.py
+        python -m streamlit run app.py
     This will open the app in your browser: http://localhost:8501
 
